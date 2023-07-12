@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Oct 22 18:39:06 2020
+# Process ID: 35804
+# Current directory: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33956 D:\codes\vivado_works\cache_lab_v0.05\cache_lab_v0.05\soc_axi_lite_loongson\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/vivado.log
+# Journal file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+close_project
+open_project D:/codes/vivado_works/true_cache/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_top/soc_lite/u_cpu/cache}} 
+run 10 us
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_top/soc_lite/u_cpu/cache}} 
+run all
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+current_wave_config {Untitled 3}
+add_wave {{/tb_top/soc_lite/u_cpu/cache}} 
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+close_sim
+launch_simulation
+source tb_top.tcl
+run all
+close_sim

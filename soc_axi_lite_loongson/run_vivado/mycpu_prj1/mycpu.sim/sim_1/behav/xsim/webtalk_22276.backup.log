@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 21 23:28:52 2020
+# Process ID: 22276
+# Current directory: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 110.359 ; gain = 17.840
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 21 23:28:59 2020...

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../rtl/xilinx_ip/unsigned_mult/sim/unsigned_mult.vhd" \
+"../../../../../../rtl/xilinx_ip/signed_mult/sim/signed_mult.vhd" \
+
+# Do not sort compile order
+nosort

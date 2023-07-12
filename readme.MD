@@ -1,0 +1,1 @@
+read more in doc/cache_design_document.docx

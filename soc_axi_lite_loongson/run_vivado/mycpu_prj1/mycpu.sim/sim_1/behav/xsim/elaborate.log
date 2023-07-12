@@ -1,0 +1,13 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 8de8692e6f7648c084645fde77f29b66 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_20 -L fifo_generator_v13_2_5 -L axi_data_fifo_v2_1_19 -L axi_crossbar_v2_1_21 -L axi_clock_converter_v2_1_19 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'arlen' [D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v:327]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'awlen' [D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v:345]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'arlen' [D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v:692]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'awlen' [D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/rtl/soc_axi_lite_top.v:708]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/2019.2/continuous/2019_11_06_2708876/packages/customer/vivado/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3103]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

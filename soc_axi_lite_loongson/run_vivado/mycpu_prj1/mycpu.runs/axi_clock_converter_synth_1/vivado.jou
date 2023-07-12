@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 21 21:36:47 2020
+# Process ID: 20924
+# Current directory: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.runs/axi_clock_converter_synth_1
+# Command line: vivado.exe -log axi_clock_converter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_clock_converter.tcl
+# Log file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.runs/axi_clock_converter_synth_1/axi_clock_converter.vds
+# Journal file: D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/run_vivado/mycpu_prj1/mycpu.runs/axi_clock_converter_synth_1\vivado.jou
+#-----------------------------------------------------------
+source axi_clock_converter.tcl -notrace

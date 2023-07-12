@@ -1,0 +1,53 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../rtl/myCPU/utils" --include "../../../../../../rtl/xilinx_ip/clk_pll" --include "../../../../mycpu.ip_user_files/ipstatic/hdl" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/axi_ram/sim/axi_ram.v" \
+"../../../../../../rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" \
+"../../../../../../rtl/xilinx_ip/axi_clock_converter/sim/axi_clock_converter.v" \
+"../../../../../../rtl/myCPU/EX/alu.v" \
+"../../../../../../rtl/myCPU/alu_decoder.v" \
+"../../../../../../rtl/axi_wrap/axi_wrap.v" \
+"../../../../../../rtl/ram_wrap/axi_wrap_ram.v" \
+"../../../../../../rtl/myCPU/EX/branch_judge.v" \
+"../../../../../../rtl/myCPU/ID/branch_predict_1_sim_netlist.v" \
+"../../../../../../rtl/myCPU/bridge_1x2.v" \
+"../../../../../../rtl/myCPU/bridge_2x1.v" \
+"../../../../../../rtl/myCPU/cache.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../rtl/myCPU/MEM/cp0_reg.v" \
+"../../../../../../rtl/myCPU/cpu_axi_interface.v" \
+"../../../../../../rtl/myCPU/d_cache.v" \
+"../../../../../../rtl/myCPU/d_sram_to_sram_like.v" \
+"../../../../../../rtl/myCPU/datapath.v" \
+"../../../../../../rtl/myCPU/EX/div_radix2.v" \
+"../../../../../../rtl/myCPU/PIPE/ex_mem.v" \
+"../../../../../../rtl/myCPU/MEM/exception.v" \
+"../../../../../../rtl/myCPU/hazard.v" \
+"../../../../../../rtl/myCPU/MEM/hilo_reg.v" \
+"../../../../../../rtl/myCPU/i_cache.v" \
+"../../../../../../rtl/myCPU/i_sram_to_sram_like.v" \
+"../../../../../../rtl/myCPU/PIPE/id_ex.v" \
+"../../../../../../rtl/myCPU/PIPE/if_id.v" \
+"../../../../../../rtl/myCPU/ID/imm_ext.v" \
+"../../../../../../rtl/myCPU/utils/inst_ascii_decoder.v" \
+"../../../../../../rtl/myCPU/ID/jump_predict.v" \
+"../../../../../../rtl/myCPU/main_decoder.v" \
+"../../../../../../rtl/myCPU/MEM/mem_ctrl.v" \
+"../../../../../../rtl/myCPU/PIPE/mem_wb.v" \
+"../../../../../../rtl/myCPU/mips_core.v" \
+"../../../../../../rtl/myCPU/mmu.v" \
+"../../../../../../rtl/myCPU/utils/mux4.v" \
+"../../../../../../rtl/myCPU/utils/mux8.v" \
+"../../../../../../rtl/myCPU/mycpu_top.v" \
+"../../../../../../rtl/myCPU/IF/pc_ctrl_1_sim_netlist.v" \
+"../../../../../../rtl/myCPU/IF/pc_reg.v" \
+"../../../../../../rtl/myCPU/ID/regfile.v" \
+"../../../../../../rtl/soc_axi_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

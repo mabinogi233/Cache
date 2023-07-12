@@ -1,0 +1,20 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.u_axi_ram.ram.inst.axi_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+==============================================================
+Test begin!
+shell1 test begin.
+
+--------------------------------------------------------------
+[ 231800 ns] Error!!!
+    reference: PC = 0x9fc00cd0, wb_rf_wnum = 0x0a, wb_rf_wdata = 0x00000159
+    mycpu    : PC = 0x9fc00cd0, wb_rf_wnum = 0x0a, wb_rf_wdata = 0x00000000
+--------------------------------------------------------------
+$finish called at time : 231839500 ps : File "D:/codes/vivado_works/cache_lab_v0.05/cache_lab_v0.05/soc_axi_lite_loongson/testbench/mycpu_tb.v" Line 170
